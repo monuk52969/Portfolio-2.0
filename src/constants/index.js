@@ -100,7 +100,7 @@ export const projects = [
       "A frontend-focused project demonstrating advanced React skills, modern CSS animations, and dynamic user interactions to create an engaging web experience.",
     href: "/projects/port-folio",
     image: "/assets/projects/bg1.png",
-    bgImage: "/images/strawberry-bg.jpg",
+    bgImage: "/assets/backgrounds/curtains.jpg",
     frameworks: [
       { id: 1, name: "React" },
       { id: 2, name: "CSS" },
@@ -114,7 +114,7 @@ export const projects = [
       "An immersive gaming website project inspired by GTA-IV, featuring interactive UI components, dynamic backgrounds, and engaging visual effects using modern web technologies.",
     href: "/projects/gta-iv",
     image: "/assets/projects/drink.png",
-    bgImage: "/images/cookies-bg.jpg",
+    bgImage: "/assets/backgrounds/map.jpg",
     frameworks: [
       { id: 1, name: "React" },
       { id: 2, name: "Tailwind CSS" },
@@ -128,7 +128,7 @@ export const projects = [
       "A community web platform designed for developers to share knowledge, collaborate on projects, and discuss coding challenges in a clean and user-friendly interface.",
     href: "/projects/askhub-community",
     image: "/assets/projects/elements.png",
-    bgImage: "/images/peanut-bg.jpg",
+    bgImage: "/assets/backgrounds/poster.jpg",
     frameworks: [
       { id: 1, name: "React" },
       { id: 2, name: "Node.js" },
@@ -142,7 +142,7 @@ export const projects = [
       "A modern, professional website for a UPVC window and door business, showcasing products, services, and company information with responsive design and smooth animations.",
     href: "https://precise-website-weld.vercel.app/#portfolio",
     image: "/assets/projects/port.png",
-    bgImage: "/images/drink.jpg",
+    bgImage: "public/assets/backgrounds/table.jpg",
     frameworks: [
       { id: 1, name: "React" },
       { id: 2, name: "Tailwind CSS" },
@@ -154,11 +154,8 @@ export const projects = [
 
 
 export const socials = [
-  { name: "Instagram", href: "https://www.instagram.com/ali.sanatidev/reels/" },
-  {
-    name: "Youtube",
-    href: "https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA",
-  },
-  { name: "LinkedIn", href: "https://www.linkedin.com/in/ali-sanati/" },
-  { name: "GitHub", href: "https://github.com/Ali-Sanati" },
+  { name: "Instagram", href: "https://www.instagram.com/monucodex.io/" },
+  
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/monu-kumar-a2b257220?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BhCWwuw8HTau%2Fh15LmWgjPQ%3D%3D" },
+  { name: "GitHub", href: "https://github.com/monuk52969" },
 ];
