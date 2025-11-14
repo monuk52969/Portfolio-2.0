@@ -8,6 +8,8 @@ import About from "./sections/About";
 import Works from "./sections/Works";
 import ContactSummary from "./sections/ContactSummary";
 import Contact from "./sections/Contact";
+import Achievements from "./components/Achievements";
+import TestimonialSection from "./components/TestimonialSection";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -53,6 +55,8 @@ const App = () => {
         <Services />
         <About />
         <Works />
+        <Achievements />
+        <TestimonialSection />
         <ContactSummary />
         <Contact />
       </div>

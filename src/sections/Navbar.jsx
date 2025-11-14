@@ -154,24 +154,29 @@ const Navbar = () => {
         {/* Links */}
         <div className="flex flex-col text-5xl gap-y-2 md:text-6xl mt-24 md:mt-32">
           {["home", "services", "about", "work", "contact"].map((section, index) => (
-            <div
-              key={index}
-              ref={(el) => (linkRef.current[index] = el)}
-              onMouseEnter={() => {}}
-              onMouseLeave={() => {}}
-            >
-              <Link
-                to={section}
-                smooth={true}
-                duration={2000}
-                offset={0}
-                spy={true}
-                className="transition-all duration-300 cursor-pointer hover:text-white"
-              >
-                {section}
-              </Link>
-            </div>
-          ))}
+  <div
+    key={index}
+    ref={(el) => (linkRef.current[index] = el)}
+  >
+    <Link
+      to={section}
+      smooth={true}
+      duration={2000}
+      offset={0}
+      spy={true}
+      className="transition-all duration-300 cursor-pointer hover:text-white"
+      onClick={() => {
+        if (tl.current) {
+          tl.current.reverse();   // GSAP reverse → close menu
+        }
+        setOpen(false);           // hamburger state reset
+      }}
+    >
+      {section}
+    </Link>
+  </div>
+))}
+
         </div>
 
         {/* Contact Section */}

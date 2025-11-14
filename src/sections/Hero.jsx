@@ -73,13 +73,13 @@ const Hero = () => {
       <div className="absolute inset-0 overflow-hidden flex items-center justify-center z-0 pointer-events-none">
         <div
           ref={marqueeRef}
-          className="flex whitespace-nowrap text-[20vw] sm:text-[160px] md:text-[200px] lg:text-[320px] font-extrabold uppercase tracking-tighter text-black/10 opacity-60"
+          className="flex whitespace-nowrap text-[36vw] sm:text-[160px] md:text-[200px] lg:text-[320px] font-extrabold uppercase tracking-tighter text-black/10 opacity-60"
           style={{ lineHeight: 1, willChange: 'transform' }}
         >
           <span>Frontend Developer&nbsp;&nbsp;</span>
-          <span>Frontend Developer&nbsp;&nbsp;</span>
-          <span>Frontend Developer&nbsp;&nbsp;</span>
-          <span>Frontend Developer&nbsp;&nbsp;</span>
+          <span>Creative Developer&nbsp;&nbsp;</span>
+          <span>Visual Designer&nbsp;&nbsp;</span>
+          <span>UI / UX &nbsp;&nbsp;</span>
         </div>
       </div>
 
@@ -101,26 +101,28 @@ const Hero = () => {
 
 
       {/* === HERO IMAGE WITH FADE === */}
-      <div className="relative flex justify-center items-end w-full mt-10 z-10">
-        <img
-          ref={imageRef}
-          src="/images/hero.png"
-          alt="Monu Kumar"
-          className="w-[650px] max-w-[95vw] h-auto object-contain relative z-10"
-          style={{
-            maskImage: "linear-gradient(to top, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%)",
-            WebkitMaskImage: "linear-gradient(to top, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%)",
-          }}
-        />
-        {/* Bottom gradient fade */}
-        <div className="absolute bottom-0 left-0 w-full h-[300px] bg-gradient-to-t from-[#e5e5e0] via-[#e5e5e0]/95 to-transparent z-[11]"></div>
-      </div>
+      <div className="relative flex justify-center items-end w-full mt-[-90%] sm:mt-10 z-10">
+  <img
+    ref={imageRef}
+    src="/images/heros.png"
+    alt="Monu Kumar"
+    className="w-[95vw] sm:w-[500px] md:w-[600px] lg:w-[650px] h-auto object-contain relative z-10"
+    style={{
+      maskImage: "linear-gradient(to top, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%)",
+      WebkitMaskImage: "linear-gradient(to top, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%)",
+    }}
+  />
+  {/* Bottom gradient fade */}
+  <div className="absolute bottom-0 left-0 w-full h-[150px] sm:h-[300px] bg-gradient-to-t from-[#e5e5e0] via-[#e5e5e0]/95 to-transparent z-[11]"></div>
+</div>
+
+
 
       {/* === NAME TEXT (CENTERED SINGLE LINE) === */}
       <div className="absolute bottom-[0%] left-1/2 -translate-x-1/2 text-center z-20">
         <p
   ref={nameRef}
-  className="text-[14vw] lg:font-bold sm:text-[90px] md:text-[110px] lg:text-[200px] leading-[0.9] font-normal text-[#000000] uppercase tracking-tight whitespace-nowrap drop-shadow-[0_8px_8px_rgba(0,0,0,0.25)]"
+  className="text-[14vw] lg:font-bold sm:text-[90px] md:text-[110px] lg:text-[200px] leading-[0.9] font-extrabold text-[#000000] uppercase tracking-tight whitespace-nowrap drop-shadow-[0_8px_8px_rgba(0,0,0,0.25)]"
 >
   MONU KUMAR
 </p>

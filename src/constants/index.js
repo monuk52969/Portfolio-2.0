@@ -152,6 +152,28 @@ export const projects = [
   },
 ];
 
+export const testimonials = [
+  {
+    name: "John Doe",
+    position: "CEO, TechCorp",
+    comment: "Monu’s web development skills are top-notch. Our project was delivered on time with amazing quality.",
+    image: "/images/hero.png",
+  },
+  {
+    name: "Jane Smith",
+    position: "Product Manager, Webify",
+    comment: "Working with Monu was a pleasure. His front-end expertise elevated our product design.",
+    image: "/images/hero.png",
+  },
+  {
+    name: "Alex Johnson",
+    position: "CTO, StartupX",
+    comment: "Highly recommend Monu for any web project. Clean code, fast delivery, and creative solutions.",
+    image: "/images/hero.png",
+  },
+];
+
+
 
 export const socials = [
   { name: "Instagram", href: "https://www.instagram.com/monucodex.io/" },
